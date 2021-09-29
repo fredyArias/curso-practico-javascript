@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    padding: 150px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    border: solid 1px #e2fb3f;
+    background-color: #e2fbff;
+    width: 20%;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+body h1, body h2, body p {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: tomato;
+}
+
+.container input {
+    margin-bottom: 15px;
+} 
